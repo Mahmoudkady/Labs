@@ -1,0 +1,11 @@
+//out 
+main{
+    button{
+        background-color: $color;
+        padding: 30%;
+        border-radius: 10px;
+        &:hover{
+            background-color: darken($color: #000000, $amount: 0);
+        }
+    }
+}

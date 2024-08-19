@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>3d</title>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			body {
+				display: flex;
+				justify-content: space-around;
+				background-color: #eee;
+			}
+			div {
+				height: 80vh;
+				text-align: center;
+			}
+			.sec1,
+			.sec3 {
+				background-color: #fff;
+				width: 33.3vw;
+				margin-top: 10px;
+			}
+			.sec2 {
+				width: 33.3vw;
+				height: 81vh;
+				background: linear-gradient(to top, #ffb03b, #fa079a);
+			}
+			i {
+				font-size: 60px;
+				color: #ff5b5a;
+			}
+			.sec2 i {
+				color: #000;
+			}
+			span {
+				display: block;
+				width: 70%;
+				height: 6px;
+				background-color: #eee;
+				margin: 50px auto;
+				border-radius: 10px;
+			}
+			.sec2 span {
+				background-color: #000;
+			}
+			.month {
+				display: inline;
+				font-size: 0.5em;
+				background: none;
+			}
+			h3 {
+				font-size: 60px;
+			}
+			.sec2 .month {
+				background: none;
+			}
+			ul {
+				list-style-type: none;
+			}
+			ul li {
+				font-size: 1.7em;
+			}
+			.btn {
+				margin: 5px auto;
+				width: 60%;
+				height: 60px;
+				border-radius: 40px;
+				box-shadow: 0px 5px 5px rgba(0, 0, 0, 50%);
+				background: linear-gradient(to top, #ffb03b, #fa079a);
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.btn a {
+				text-decoration: none;
+				font-size: 24px;
+				color: #fff;
+			}
+			.sec2 .btn {
+				background: #fff;
+			}
+			.sec2 .btn a {
+				color: #000;
+			}
+			@media (max-width: 500px) {
+				body {
+					flex-direction: column;
+				}
+
+				.sec2 {
+					order: -1;
+				}
+				.sec1,
+				.sec3,
+				.sec2 {
+					width: 100vw;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="sec1">
+			<h1>Basic</h1>
+			<i class="fa-solid fa-chart-pie"></i>
+			<span></span>
+			<h3>$35 <span class="month">/ month</span></h3>
+			<ul>
+				<li>storage is free</li>
+				<li>storage is free</li>
+				<li>storage is free</li>
+				<li>storage is free</li>
+				<li>storage is free</li>
+			</ul>
+			<div class="btn">
+				<a href=""><h4>Sign Up</h4></a>
+			</div>
+		</div>
+		<div class="sec2">
+			<h1>Exc</h1>
+			<i class="fa-solid fa-chart-line"></i>
+			<span></span>
+			<h3>$45 <span class="month">/ month</span></h3>
+			<ul>
+				<li>storage is free</li>
+				<li>storage is free</li>
+				<li>storage is free</li>
+				<li>storage is free</li>
+				<li>storage is free</li>
+			</ul>
+			<div class="btn">
+				<a href=""><h4>Sign Up</h4></a>
+			</div>
+		</div>
+		<div class="sec3">
+			<h1>Pro</h1>
+			<i class="fa-solid fa-building-columns"></i>
+			<span></span>
+			<h3>$59 <span class="month">/ month</span></h3>
+			<ul>
+				<li>storage is free</li>
+				<li>storage is free</li>
+				<li>storage is free</li>
+				<li>storage is free</li>
+				<li>storage is free</li>
+			</ul>
+			<div class="btn">
+				<a href=""><h4>Sign Up</h4></a>
+			</div>
+		</div>
+	</body>
+</html>
