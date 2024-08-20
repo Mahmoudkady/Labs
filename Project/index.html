@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title> final project </title>
+  <style>
+    * {
+      padding: 0%;
+      margin: 0%;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      display: grid;
+    }
+
+    body header {
+      grid-area: head;
+      width: 100%;
+      height: 60px;
+      padding: 10px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(255, 255, 255);
+      position: fixed;
+      z-index: 1;
+    }
+
+    body header h1 {
+      padding: 10px 0px 0px 75px;
+      font-size: 25px;
+      text-transform: uppercase;
+    }
+
+    body header nav {
+      width: 45%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    body header nav a {
+      text-decoration: none;
+      color: black;
+      font-size: 22px;
+      font-weight: 500;
+
+    }
+
+    body header nav a:hover {
+      font-size: 22px;
+      background-color: #A28B55;
+      padding: 15px;
+      border-radius: 20PX 20PX;
+    }
+
+    .hhh {
+      display: flex;
+    }
+
+    .hero {
+      background: url(https://i.imgur.com/TQdBENb.jpeg) no-repeat center fixed;
+      background-size: cover;
+      text-align: center;
+      min-height: 600px;
+
+    }
+
+    .hero h1 {
+      font-size: 60px;
+      padding-top: 100px;
+    }
+
+    .hero button {
+
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 50px;
+      font-size: 40px;
+      border-radius: 10px 10px;
+    }
+
+    .peag-tow div {
+      width: 32%;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      transition: 0.6s;
+      background-color: #eee;
+      border-radius: 6px;
+      margin-top: 50px;
+      border: solid 1px #010004;
+      -webkit-transition: 0.6s;
+      -moz-transition: 0.6s;
+      -ms-transition: 0.6s;
+      -o-transition: 0.6s;
+    }
+
+    .peag-tow div img {
+      width: 100%;
+      border-radius: 6px;
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+      -o-border-radius: 6px;
+    }
+
+    .peag-tow div h2 {
+      margin: 0;
+    }
+
+    .peag-tow div P {
+      direction: rtl;
+      padding: 10px;
+      margin: 0;
+    }
+
+    .peag-tow div:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 2px 15px rgba(20, 4, 65, 0.3);
+      -webkit-transform: translateY(-10px);
+      -moz-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      -o-transform: translateY(-10px);
+    }
+
+    .peag-tow {
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 50px;
+      gap: 10px;
+      background-color: white;
+      padding: 30px;
+      border-radius: 6px;
+    }
+
+    .peag-tow a {
+      margin: 20px auto;
+      text-decoration: none;
+      padding: 20px;
+      border-radius: 30px;
+      color: #000;
+      border: #000 solid 2px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      -ms-border-radius: 30px;
+      -o-border-radius: 30px;
+
+    }
+
+    .peag-tow a:hover {
+      border: solid black 2px;
+      color: black;
+    }
+
+    .page3 {
+      text-align: center;
+    }
+
+    .hh {
+      margin-left: 30px;
+    }
+
+    .font {
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="hhh">
+      <img src="https://i.imgur.com/0GL4l1z.jpeg" width="7%">
+      <p class="hh"><span style="color: #A28B55;font-size: x-large;">AMO</span>-COSMETICS COMPANY</p>
+    </div>
+    <nav>
+      <a href="#">للتواصل معنا</a>
+      <a href="#">المنتجات</a>
+
+      <a href="#footer">الصفحة الرئيسية</a>
+    </nav>
+  </header>
+
+
+  <div class="hero">
+
+    <h1 style="color: #A28B55;">مــــرحباً بـكـم فى</h1>
+    <h1 style="color: #A28B55;">صــنع بــزيـوت الــذهــب</h1>
+
+    <button style="background-color:rgb(37, 35, 35) ; ">أعرف المزيد
+    </button>
+  </div>
+  <div>
+    <div class="peag-tow">
+      <div>
+        <img src="https://i.imgur.com/TQdBENb.jpeg" alt="منتج شعر للتساقط">
+        <h2 style="color: #A28B55 ;">للتساقط AMO حمام كريم</h2>
+        <p class="font"> حمام كريم AMO للشعر المتكسر والمتساقط والضعيف: يُقلل هذا النوع من تساقط الشعر ويُقوي خصلاته،
+          حيث يحتوي على
+          الصبار المسئول عن إصلاح بنية الشعر، ويمنع تساقطه نظراً لعناصره المُلطفة والمُغذية. ويحتوي أيضاً على جوز الهند
+          الذي يُزيد من سمك الشعر ويقويه</p><br><p>السعر : ٣٠٠ج</p>
+        <button style="background-color: #A67B5B  ; border-radius:10px 10px;margin-top: 70px; ">أضف إلي السله
+        </button>
+        <button style="background-color:#A67B5B ;border-radius:10px 10px;">أطلب الآن
+        </button>
+      </div>
+      <div>
+        <img src="https://i.imgur.com/TQdBENb.jpeg" alt="منتج للشعر">
+        <h2 style="color: #A28B55;">للترطيب AMO بلسم للشعر</h2>
+        <p class="font">بلسم AMO للتحكم في ترطيب الشعر غني بمستخلصات طبيعية مختارة من الصبار والثوم والجرجير التي تساعد
+          على التحكم في
+          ترطيب الشعر، وهو مصنوع من مكونات طبيعية مثل الصبار والثوم والجيرجير. مصمم خصيصًا للشعر المتقصف </p><br><br><P>السعر : ٢٥٠ج</P>
+        <button style="background-color: #A67B5B  ; border-radius:10px 10px; margin-top:70PX;">أضف إلي السله
+        </button>
+        <button style="background-color:#A67B5B ;border-radius:10px 10px;margin-bottom: 40px;">أطلب الآن
+        </button>
+      </div>
+      <div>
+        <img src="https://i.imgur.com/TQdBENb.jpeg" alt="منتج للشعر">
+        <h2 style="color: #A28B55;">للقشره AMO منتج الشعر</h2>
+        <p class="font">شامبو AMO مكيف طبيعي 100٪، من المفيد ترطيب شعرك من الداخل، وتنظيفه بلطف
+          وتغذيته، تهتم بلطف بلمسة طبيعية لتترك شعرك ناعمًا وحريريًا ولامعًا ومشرقًا،
+          يحتوي على مزيج متوازن من المكونات الطبيعية مثل الحناء، اللوز الأخض
+          ر، هذا مفيد لتحويل شعرك الممل وبلا حياة إلى نسيج ناعم وحريري.
+        </p><br><br><p> السعر:١٥٠ ج</p><button
+          style="background-color: #A67B5B ; border-radius:10px 10px; ">أضف إلي السله
+        </button>
+        <button style="background-color:#A67B5B ;border-radius:10px 10px;margin-top: 50px;">أطلب الآن
+        </button>
+      </div>
+
+    </div>
+  </div><br><br>
+  <section>
+    <div class="page3">
+      <h1 style="color: RED;">عروضنا</h1><br>
+    </div>
+  </section>
+  <main>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm" style="background-color: rgb(227, 232, 232);">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">العرض الثالث</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">٢٥٠ بدلا من ٣٠٠<small class="text-body-secondary fw-light"></small></h1>
+            
+            <ul class="list-unstyled mt-3 mb-4" style="font-size: x-large;">
+              <li ><H2>عدد العبوات :٢</H2></li>
+              <li>تركيبة غنية بالزيوت الطبيعية</li>
+              <li>ترطيب عميق وتغذية للشعر</li>
+              <li>حماية من التلف</li>
+              
+            </ul>
+            <button style="background-color:#A67B5B ;border-radius:10px 10px;size: 90px;">تأكيد الطلب
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm" style="background-color: rgb(227, 232, 232);">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">العرض الثانى</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">٤٨٠ بدلاً من ٦٠٠<small class="text-body-secondary fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4" style="font-size: x-large;">
+              <li><h2>عدد العبوات : ٤</h2></li>
+              <li>بديل فعال وموفر للمنتجات الغالية</li>
+
+
+              <li> جودة عالية وأداء ممتاز</li>
+              <li>نتائج مضمونة</li>
+            
+            </ul>
+            <button style="background-color:#A67B5B ;border-radius:10px 10px;size: 90px;">تأكيد الطلب
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary" style="background-color: rgb(227, 232, 232);">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">العرض الأول</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">٥٤٠ بدلاً من ٩٠٠<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4" style="font-size: x-large;">
+              <li>عدد العبوات: ٦</li>
+              <li>خصم كبير على المنتج</li>
+              <li>عرض محدود بوقت محدد</li>
+              <li>فرصة للحصول على المنتج بسعر أقل</li>
+
+            </ul>
+            <button style="background-color:#A67B5B ;border-radius:10px 10px;size: 90px;">تأكيد الطلب
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <form style="width: 50%;margin-left: 410PX;">
+    <img class="mb-4" src="https://i.imgur.com/0GL4l1z.jpeg" alt="" width="72" height="57"><br><br>
+    <h1 class="h3 mb-3 fw-normal">للطلب</h1>
+
+    <div class="form-floating">
+      <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">الأســــم</label>
+    </div>
+    <div class="form-floating">
+      <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">الــعنوان</label>
+    </div>
+    <div class="form-floating">
+      <input type="number" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">الــكمية</label>
+    </div>
+    <div class="form-floating">
+      <input type="date" class="form-control" id="date" placeholder="date">
+      <label for="floatingPassword">الـتاريخ</label>
+    </div>
+    <div class="form-floating">
+      <input type="number" class="form-control" id="number" placeholder="number">
+      <label for="floatingPassword">رقم التواصل</label>
+    </div>
+    <div class="form-check text-start my-3">
+      <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        تذكرنى
+      </label>
+    </div>
+    <button class="btn btn-primary w-100 py-2" type="submit">لتأكيد الطلب</button>
+
+  </form>
+  <footer>
+    <div class="b-example-divider"></div>
+
+    <div class="b-example-divider"></div>
+
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">للتواصل معنا</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">المنتجات</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">الصفحة الرئيسية</a></li>
+          
+        </ul>
+        <p class="text-center text-body-secondary">AMO Cosmetics Company@AMOO.COM</p>
+      </footer>
+    </div>
+  </footer>
+</body>
+
+</html>
